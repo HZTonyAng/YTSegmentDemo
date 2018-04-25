@@ -15,6 +15,16 @@
 		71E720082090461D00BA3111 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E720072090461D00BA3111 /* main.m */; };
 		71E720122090461D00BA3111 /* YTSegmentDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E720112090461D00BA3111 /* YTSegmentDemoTests.m */; };
 		71E7201D2090461D00BA3111 /* YTSegmentDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E7201C2090461D00BA3111 /* YTSegmentDemoUITests.m */; };
+		71E720362090463B00BA3111 /* MLMSegmentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E7202B2090463B00BA3111 /* MLMSegmentManager.m */; };
+		71E720372090463B00BA3111 /* MLMSegmentHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E7202C2090463B00BA3111 /* MLMSegmentHead.m */; };
+		71E720382090463B00BA3111 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E7202D2090463B00BA3111 /* UIView+ViewController.m */; };
+		71E720392090463B00BA3111 /* MLMSegmentScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E7202E2090463B00BA3111 /* MLMSegmentScroll.m */; };
+		71E7203A2090463B00BA3111 /* UIView+EasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E7202F2090463B00BA3111 /* UIView+EasyFrame.m */; };
+		71E72040209046E500BA3111 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E7203F209046E500BA3111 /* OneViewController.m */; };
+		71E72043209046F100BA3111 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E72042209046F100BA3111 /* TwoViewController.m */; };
+		71E720462090494300BA3111 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E720452090494300BA3111 /* ThreeViewController.m */; };
+		71E7204A20904D6400BA3111 /* voucher_bg_pic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E7204820904D6400BA3111 /* voucher_bg_pic@3x.png */; };
+		71E7204B20904D6400BA3111 /* voucher_bg_pic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E7204920904D6400BA3111 /* voucher_bg_pic@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,25 @@
 		71E720182090461D00BA3111 /* YTSegmentDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTSegmentDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E7201C2090461D00BA3111 /* YTSegmentDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTSegmentDemoUITests.m; sourceTree = "<group>"; };
 		71E7201E2090461D00BA3111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E7202B2090463B00BA3111 /* MLMSegmentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMSegmentManager.m; sourceTree = "<group>"; };
+		71E7202C2090463B00BA3111 /* MLMSegmentHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMSegmentHead.m; sourceTree = "<group>"; };
+		71E7202D2090463B00BA3111 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		71E7202E2090463B00BA3111 /* MLMSegmentScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMSegmentScroll.m; sourceTree = "<group>"; };
+		71E7202F2090463B00BA3111 /* UIView+EasyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyFrame.m"; sourceTree = "<group>"; };
+		71E720302090463B00BA3111 /* SegmentPageHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentPageHead.h; sourceTree = "<group>"; };
+		71E720312090463B00BA3111 /* MLMSegmentHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMSegmentHead.h; sourceTree = "<group>"; };
+		71E720322090463B00BA3111 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		71E720332090463B00BA3111 /* MLMSegmentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMSegmentManager.h; sourceTree = "<group>"; };
+		71E720342090463B00BA3111 /* UIView+EasyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyFrame.h"; sourceTree = "<group>"; };
+		71E720352090463B00BA3111 /* MLMSegmentScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMSegmentScroll.h; sourceTree = "<group>"; };
+		71E7203E209046E500BA3111 /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		71E7203F209046E500BA3111 /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		71E72041209046F100BA3111 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		71E72042209046F100BA3111 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		71E720442090494300BA3111 /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		71E720452090494300BA3111 /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		71E7204820904D6400BA3111 /* voucher_bg_pic@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voucher_bg_pic@3x.png"; sourceTree = "<group>"; };
+		71E7204920904D6400BA3111 /* voucher_bg_pic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voucher_bg_pic@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +134,11 @@
 				71E71FF92090461C00BA3111 /* AppDelegate.m */,
 				71E71FFB2090461C00BA3111 /* ViewController.h */,
 				71E71FFC2090461C00BA3111 /* ViewController.m */,
+				71E720472090495800BA3111 /* ChildVC */,
 				71E71FFE2090461C00BA3111 /* Main.storyboard */,
+				71E7204920904D6400BA3111 /* voucher_bg_pic@2x.png */,
+				71E7204820904D6400BA3111 /* voucher_bg_pic@3x.png */,
+				71E7202A2090463B00BA3111 /* MLMSegmentPageView */,
 				71E720012090461D00BA3111 /* Assets.xcassets */,
 				71E720032090461D00BA3111 /* LaunchScreen.storyboard */,
 				71E720062090461D00BA3111 /* Info.plist */,
@@ -130,6 +163,37 @@
 				71E7201E2090461D00BA3111 /* Info.plist */,
 			);
 			path = YTSegmentDemoUITests;
+			sourceTree = "<group>";
+		};
+		71E7202A2090463B00BA3111 /* MLMSegmentPageView */ = {
+			isa = PBXGroup;
+			children = (
+				71E7202B2090463B00BA3111 /* MLMSegmentManager.m */,
+				71E7202C2090463B00BA3111 /* MLMSegmentHead.m */,
+				71E7202D2090463B00BA3111 /* UIView+ViewController.m */,
+				71E7202E2090463B00BA3111 /* MLMSegmentScroll.m */,
+				71E7202F2090463B00BA3111 /* UIView+EasyFrame.m */,
+				71E720302090463B00BA3111 /* SegmentPageHead.h */,
+				71E720312090463B00BA3111 /* MLMSegmentHead.h */,
+				71E720322090463B00BA3111 /* UIView+ViewController.h */,
+				71E720332090463B00BA3111 /* MLMSegmentManager.h */,
+				71E720342090463B00BA3111 /* UIView+EasyFrame.h */,
+				71E720352090463B00BA3111 /* MLMSegmentScroll.h */,
+			);
+			path = MLMSegmentPageView;
+			sourceTree = "<group>";
+		};
+		71E720472090495800BA3111 /* ChildVC */ = {
+			isa = PBXGroup;
+			children = (
+				71E7203E209046E500BA3111 /* OneViewController.h */,
+				71E7203F209046E500BA3111 /* OneViewController.m */,
+				71E72041209046F100BA3111 /* TwoViewController.h */,
+				71E72042209046F100BA3111 /* TwoViewController.m */,
+				71E720442090494300BA3111 /* ThreeViewController.h */,
+				71E720452090494300BA3111 /* ThreeViewController.m */,
+			);
+			path = ChildVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +301,8 @@
 			files = (
 				71E720052090461D00BA3111 /* LaunchScreen.storyboard in Resources */,
 				71E720022090461D00BA3111 /* Assets.xcassets in Resources */,
+				71E7204A20904D6400BA3111 /* voucher_bg_pic@3x.png in Resources */,
+				71E7204B20904D6400BA3111 /* voucher_bg_pic@2x.png in Resources */,
 				71E720002090461C00BA3111 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +330,15 @@
 			files = (
 				71E71FFD2090461C00BA3111 /* ViewController.m in Sources */,
 				71E720082090461D00BA3111 /* main.m in Sources */,
+				71E720462090494300BA3111 /* ThreeViewController.m in Sources */,
+				71E720362090463B00BA3111 /* MLMSegmentManager.m in Sources */,
+				71E72043209046F100BA3111 /* TwoViewController.m in Sources */,
+				71E72040209046E500BA3111 /* OneViewController.m in Sources */,
+				71E720382090463B00BA3111 /* UIView+ViewController.m in Sources */,
+				71E720392090463B00BA3111 /* MLMSegmentScroll.m in Sources */,
 				71E71FFA2090461C00BA3111 /* AppDelegate.m in Sources */,
+				71E7203A2090463B00BA3111 /* UIView+EasyFrame.m in Sources */,
+				71E720372090463B00BA3111 /* MLMSegmentHead.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
